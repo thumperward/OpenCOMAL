@@ -70,16 +70,11 @@ lex.yy.c:	pdclex.l
 		flex pdclex.l
 
 almostclean:	
-		-rm *.o *.obj *.map *.OBJ *~ *.d
+		-rm *.o
 		-rm lex.yy.c pdcpars.tab.* pdcpars.output
-		-rm pdcpars.c pdclex.c pdcpars.h
 
 clean:		almostclean
 		-rm $(TARG1) $(TARG2)
-		-rm ../bin/*.exe ../bin/*.EXE
 
 .c.o:
 		$(CC) $(COPTS) $*.c 
-
-include $(SOURCES:.c=.d)
-
