@@ -4,7 +4,6 @@ This is a slightly patched version of [Jos Visser](http://www.josvisser.nl/)'s
 [OpenComal](http://www.josvisser.nl/opencomal/)
 [0.2.6](http://www.josvisser.nl/opencomal/opencomal-0.2.6.tar.gz) (stable branch).
 
-
 ## FAQ
 
 ### Why this fork?
@@ -39,15 +38,16 @@ felt like in the seventies or eighties of the previous century. Having
 said that, I will consider pull requests that come with a nice
 description and readable code.
 
-
 ## Further Reading
 
-### included:
+### included
+
 * [original README](README.orig)
 * [original TODO](doc/TODO)
 * [original documentation](doc/)
 
-### external:
+### external
+
 * [Børge R. Christensen's COMAL Reference Guide (for COMAL 0.14 on the C-64)](http://www.c64-wiki.de/index.php/COMAL_Reference_Guide)
 * Wikipedia has useful COMAL entries in
   [German](https://de.wikipedia.org/wiki/COMAL),
