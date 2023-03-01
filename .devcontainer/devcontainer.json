@@ -1,7 +1,7 @@
 {
 	"name": "Debian",
 	"build": {
-		"dockerfile": "Dockerfile",
+		"dockerfile": "Dockerfile"
 	},
 	"features": {
 		"ghcr.io/devcontainers/features/docker-in-docker:1": {}
@@ -11,7 +11,8 @@
 			"settings": {},
 			"extensions": [
 				"ms-vscode.cpptools",
-				"ms-azuretools.vscode-docker"
+				"ms-azuretools.vscode-docker",
+				"ms-vscode.makefile-tools"
 			]
 		}
 	}
